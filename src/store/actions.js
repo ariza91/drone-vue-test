@@ -21,6 +21,7 @@ export const changeSearchInput = ({ commit }, value) => commit(types.CHANGE_SEAR
 export const getDroneList = async ({ commit }) => {
     try {
         commit(types.SET_LOADING, true)
+        commit(types.CHANGE_SEARCH_INPUT, null)
 
         const { data } = await axios.get(`${endpoint}/drones`);
 
@@ -39,6 +40,7 @@ export const getDroneDetails = async ({ commit }, id) => {
     try {
         commit(types.SET_LOADING, true)
         commit(types.SET_DRONE, null)
+        commit(types.CHANGE_SEARCH_INPUT, null)
 
         const { data } = await axios.get(`${endpoint}/drone/${id}`);
 

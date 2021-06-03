@@ -29,16 +29,26 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   data() {
     return {
       searchValue: "",
     };
   },
+  computed: {
+    ...mapGetters({
+      getSearchInput: "getSearchInput",
+    }),
+  },
   watch: {
     searchValue() {
       if (this.searchValue === "") this.searchValue = null;
       this.$store.dispatch("changeSearchInput", this.searchValue);
+    },
+    getSearchInput(value) {
+      this.searchValue = value;
     },
   },
 };

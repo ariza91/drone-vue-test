@@ -1,0 +1,8 @@
+export const SET_LOADING = 'SET_LOADING'
+
+export const CHANGE_ORDER = 'CHANGE_ORDER'
+export const CHANGE_LIST_VIEW = 'CHANGE_LIST_VIEW'
+export const CHANGE_SEARCH_INPUT = 'CHANGE_SEARCH_INPUT'
+
+export const SET_DRONE_LIST = 'SET_DRONE_LIST'
+export const SET_DRONE = 'SET_DRONE'

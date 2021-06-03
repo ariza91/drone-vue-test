@@ -1,0 +1,50 @@
+{
+    "Home": {
+        "droneList": "Drone List"
+    },
+    "RouteList": {
+        "home": "Home",
+        "droneList": "Drone List"
+    },
+    "DroneListTitle": {
+        "title": "Drone List",
+        "sortBy": "Sort By"
+    },
+    "DroneOrderOptions": {
+        "batteryDesc": "Battery D",
+        "batteryAsc": "Battery A",
+        "ageDesc": "Age D",
+        "ageAsc": "Age A"
+    },
+    "DronePreview": {
+        "name": "NAME",
+        "batery": "BATTERY",
+        "age": "AGE",
+        "seeDetails": "See Reports"
+    },
+    "DroneColumns": {
+        "time": "Time",
+        "speed": "Speed",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "traffic": "Traffic"
+    },
+    "DroneDetails": {
+        "notFound": "404 DRONE NOT FOUND",
+        "notData": "NOT DATA FOR THIS DRONE"
+    },
+    "DroneList": {
+        "notFound": "404 DRONES NOT FOUND"
+    },
+    "Footer": {
+        "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "services": "Services",
+        "email": "Email Marketing",
+        "campaign": "Campaigns",
+        "about": "About",
+        "outStory": "Out Story",
+        "benefits": "Benefits",
+        "followUs": "Follow Us",
+        "copyright": "Copyright © 2021. Skilling Drone Lab. All rights reserved."
+    }
+}

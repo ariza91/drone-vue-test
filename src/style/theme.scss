@@ -1,0 +1,40 @@
+@import '@/style/colors.scss';
+@import '@/style/buttons.scss';
+@import '@/style/fonts.scss';
+
+
+$topbar-size: 60px;
+$route-list-size: 40px;
+$footer-size: 300px;
+$content-size: calc(100vh - #{$topbar-size} - #{$route-list-size} - #{$footer-size});
+
+.link {
+    text-decoration: none;
+    color: grey;
+
+    &.active {
+        color: black;
+    }
+}
+
+.badge.bg-primary {
+    background-color: $main !important;
+}
+
+.bg-custom {
+    &.LIGHT {
+        border: 1px solid $traffic-light;
+        color: $traffic-light;
+        background-color: rgba($traffic-light, 0.2);
+    }
+    &.MODERATE {
+        border: 1px solid $traffic-moderate;
+        color: $traffic-moderate;
+        background-color: rgba($traffic-moderate, 0.2);
+    }
+    &.HEAVY {
+        border: 1px solid $traffic-heavy;
+        color: $traffic-heavy;
+        background-color: rgba($traffic-heavy, 0.2);
+    }
+}

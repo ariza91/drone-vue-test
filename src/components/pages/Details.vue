@@ -53,11 +53,8 @@ export default {
     return { sortOptions };
   },
   watch: {
-    "$route.params": {
-      immediate: true,
-      handler(values) {
-        this.getDetails(values.id);
-      },
+    $route(values) {
+      this.getDetails(values.params.id);
     },
   },
   filters: {
@@ -67,7 +64,6 @@ export default {
   },
   computed: {
     ...mapGetters({
-      isLoading: "isLoading",
       currentDrone: "currentDrone",
       getSearchInput: "getSearchInput",
     }),

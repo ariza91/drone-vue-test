@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders renders correctly 1`] = `
+<div class="list">
+  <dronepagewrapper-stub content="DroneList.notFound"><template></template></dronepagewrapper-stub>
+</div>
+`;

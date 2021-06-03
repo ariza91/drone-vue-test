@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders renders correctly 1`] = `
+<div class="home">
+  <router-link-stub to="[object Object]"><button class="btn btn-outline-primary">
+      Home.droneList
+    </button></router-link-stub>
+</div>
+`;
